@@ -124,9 +124,9 @@ export default function Services() {
                     </CardDescription>
                 </CardHeader>
                 <CardContent>
-                    Finds great joy in sharing my knowledge
-                    with others. As a technical mentor this
-                    allows me to give back to the community.
+                    Get mentored by experienced
+                    developers and help them
+                    improve their skills
                 </CardContent>
             </Card>
         </div>

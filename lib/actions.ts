@@ -1,14 +1,15 @@
 "use server"
 
+
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend('re_MAmoPkk5_Dg4USAzdGwSoVGFNVZi434jA');
 
 export const sendEmail = async (name: string, email: string, message: string, subject?: string, phoneNumber?: string) => {
     const { data, error } = await resend.emails.send({
-        from: 'My Portfolio 😃 <website@wilsonkinyua.com>',
-        to: ["wilsonkinyuam@gmail.com"],
-        subject: subject || `New Message from ${name} on My Portfolio`,
+        from: 'TintinSDev Web 😃 <onboarding@resend.dev>',
+        to: ["mmaina290@gmail.com"],
+        subject: subject || `New Message from ${name} on TintinSDev`,
         html: `
             <h5>New Message from ${name}</h1>
             <p><strong>Message</strong> -${message}</p>
@@ -27,8 +28,8 @@ export const sendEmail = async (name: string, email: string, message: string, su
 
 export const sendResumeViewedEmail = async () => {
     const { data, error } = await resend.emails.send({
-        from: 'My Portfolio 😃 <website@wilsonkinyua.com>',
-        to: ["wilsonkinyuam@gmail.com"],
+        from: 'TintinSDev Web 😃 <onboarding@resend.dev>',
+        to:["mmaina290@gmail.com"],
         subject: 'Someone viewed your resume as at ' + new Date().toLocaleString(),
         html: `
             <h5>Someone viewed your resume</h5>

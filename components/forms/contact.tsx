@@ -5,7 +5,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { toast } from "@/components/ui/use-toast"
 import { Button } from "../ui/button";
 import { Loader, Send } from "lucide-react";
-import { sendEmail } from "@/lib/actions";
+import sendEmail from "@/lib/actions";
 export default function Contact() {
     const [transition, startTransition] = useTransition();
     const [formState, setFormState] = useState({
@@ -82,7 +82,7 @@ export default function Contact() {
                     <Input
                         id="fullName"
                         type="text"
-                        placeholder="Tery Humfy D. Tawez"
+                        placeholder="Murat D. Omar"
                         onChange={(e) => {
                             setFormState({ ...formState, fullName: e.target.value });
                         }}
@@ -97,7 +97,7 @@ export default function Contact() {
                     <Input
                         id="emailAddress"
                         type="email"
-                        placeholder="tery@humfy.com"
+                        placeholder="email@domain.com"
                         onChange={(e) => {
                             setFormState({ ...formState, emailAddress: e.target.value });
                         }}
@@ -112,7 +112,7 @@ export default function Contact() {
                     <Input
                         id="phoneNumber"
                         type="tel"
-                        placeholder="+254 712 345 678"
+                        placeholder="+1 512 345 678"
                         onChange={(e) => {
                             setFormState({ ...formState, phoneNumber: e.target.value });
                         }}
@@ -125,7 +125,7 @@ export default function Contact() {
                     <Input
                         id="subject"
                         type="text"
-                        placeholder="I have a project for you"
+                        placeholder="What do you have in mind?"
                         onChange={(e) => {
                             setFormState({ ...formState, subject: e.target.value });
                         }}

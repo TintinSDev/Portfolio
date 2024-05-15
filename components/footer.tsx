@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="container max-auto">
                 <div className="lg:flex justify-between lg:text-left text-center font-semibold">
                     <p>
-                        Copyright © {new Date().getFullYear()}, <Link href={"/"} className={`${galada.className} text-primary`}>Wilson Kinyua.</Link> All Rights Reserved
+                        Copyright © {new Date().getFullYear()}, <Link href={"/"} className={`${galada.className} text-primary`}>Martin Maina.</Link> All Rights Reserved
                     </p>
                     <div>
                         <ul className="lg:flex hidden space-x-5">

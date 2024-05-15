@@ -60,7 +60,7 @@ export default function Skills() {
                 <CardHeader>
                     <CardTitle>
                         <Image
-                            src="/img/icons/php.svg"
+                            src="/img/icons/docker.svg"
                             alt="PHP"
                             width={50}
                             height={50}
@@ -68,7 +68,7 @@ export default function Skills() {
                         />
                     </CardTitle>
                     <CardDescription className="text-white font-bold pt-5">
-                        PHP
+                        Docker
                     </CardDescription>
                 </CardHeader>
             </Card>
@@ -76,7 +76,7 @@ export default function Skills() {
                 <CardHeader>
                     <CardTitle>
                         <Image
-                            src="/img/icons/next-js.svg"
+                            src="/img/icons/py.svg"
                             alt="Next Js"
                             width={50}
                             height={50}
@@ -84,7 +84,7 @@ export default function Skills() {
                         />
                     </CardTitle>
                     <CardDescription className="text-white font-bold pt-5">
-                        Next Js
+                        PyCharm
                     </CardDescription>
                 </CardHeader>
             </Card>
@@ -100,7 +100,7 @@ export default function Skills() {
                         />
                     </CardTitle>
                     <CardDescription className="text-white font-bold pt-5">
-                        React
+                        ReactJS
                     </CardDescription>
                 </CardHeader>
             </Card>
@@ -124,7 +124,7 @@ export default function Skills() {
                 <CardHeader>
                     <CardTitle>
                         <Image
-                            src="/img/icons/angular.svg"
+                            src="/img/icons/redux.svg"
                             alt="Angular"
                             width={50}
                             height={50}
@@ -132,7 +132,7 @@ export default function Skills() {
                         />
                     </CardTitle>
                     <CardDescription className="text-white font-bold pt-5">
-                        Angular
+                       Redux
                     </CardDescription>
                 </CardHeader>
             </Card>
@@ -140,7 +140,7 @@ export default function Skills() {
                 <CardHeader>
                     <CardTitle>
                         <Image
-                            src="/img/icons/laravel.svg"
+                            src="/img/icons/postman.svg"
                             alt="Laravel"
                             width={50}
                             height={50}
@@ -148,7 +148,7 @@ export default function Skills() {
                         />
                     </CardTitle>
                     <CardDescription className="text-white font-bold pt-5">
-                        Laravel
+                        Postman
                     </CardDescription>
                 </CardHeader>
             </Card>
@@ -220,7 +220,7 @@ export default function Skills() {
                 <CardHeader>
                     <CardTitle>
                         <Image
-                            src="/img/icons/jQuery.svg"
+                            src="/img/icons/flask.svg"
                             alt="jQuery"
                             width={50}
                             height={50}
@@ -228,7 +228,7 @@ export default function Skills() {
                         />
                     </CardTitle>
                     <CardDescription className="text-white font-bold pt-5">
-                        jQuery
+                        Flask
                     </CardDescription>
                 </CardHeader>
             </Card>
@@ -236,7 +236,7 @@ export default function Skills() {
                 <CardHeader>
                     <CardTitle>
                         <Image
-                            src="/img/icons/wordpress.svg"
+                            src="/img/icons/api.svg"
                             alt="Wordpress"
                             width={50}
                             height={50}
@@ -244,7 +244,7 @@ export default function Skills() {
                         />
                     </CardTitle>
                     <CardDescription className="text-white font-bold pt-5">
-                        Wordpress
+                        APIs
                     </CardDescription>
                 </CardHeader>
             </Card>
@@ -260,7 +260,7 @@ export default function Skills() {
                         />
                     </CardTitle>
                     <CardDescription className="text-white font-bold pt-5">
-                        HMTL
+                        HMTL5
                     </CardDescription>
                 </CardHeader>
             </Card>
@@ -276,7 +276,7 @@ export default function Skills() {
                         />
                     </CardTitle>
                     <CardDescription className="text-white font-bold pt-5">
-                        CSS
+                        CSS3
                     </CardDescription>
                 </CardHeader>
             </Card>
@@ -292,7 +292,7 @@ export default function Skills() {
                         />
                     </CardTitle>
                     <CardDescription className="text-white font-bold pt-5">
-                        Mysql
+                        MySQL
                     </CardDescription>
                 </CardHeader>
             </Card>

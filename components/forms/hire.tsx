@@ -6,7 +6,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { toast } from "@/components/ui/use-toast"
 import { Button } from "../ui/button";
 import { Loader } from "lucide-react";
-import { sendEmail } from "@/lib/actions";
+import sendEmail from "@/lib/actions";
 export default function Hire() {
     const [transition, startTransition] = useTransition();
     const [formState, setFormState] = useState({
@@ -79,7 +79,7 @@ export default function Hire() {
                 <Input
                     id="fullName"
                     type="text"
-                    placeholder="Tery Humfy D. Tawez"
+                    placeholder="Murat D. Omar"
                     onChange={(e) => {
                         setFormState({ ...formState, fullName: e.target.value });
                     }}
@@ -94,7 +94,7 @@ export default function Hire() {
                 <Input
                     id="emailAddress"
                     type="email"
-                    placeholder="tery@humfy.com"
+                    placeholder="email@domain.com"
                     onChange={(e) => {
                         setFormState({ ...formState, emailAddress: e.target.value });
                     }}
@@ -124,7 +124,7 @@ export default function Hire() {
                 type='submit'
                 disabled={transition}
             >
-                Hit Me Up {transition && <Loader size={20} className="animate-spin ml-2" />}
+                HIt me up {transition && <Loader size={20} className="animate-spin ml-2" />}
             </Button>
         </form>
     )

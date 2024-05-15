@@ -12,56 +12,57 @@ import {
 } from "@/components/ui/tooltip"
 import { ArrowUpRight } from "lucide-react"
 import Image from "next/image"
+import { useEffect } from "react";
 export default function Projects() {
     const projects = [
         {
-            title: 'Mount Kenya Wildlife Conservancy (MKWC)',
-            type: 'Website / CMS',
-            description: 'A non-profit trust dedicated to preserving the environment and the wildlife within. For 20 years, the MKWC has served as a beacon of conservation, preserving and protecting nature\'s beauty and wildlife for present and future generations.',
-            image: '/img/projects/1.png',
-            link: 'https://mountkenyawildlifeconservancy.org',
+            title: 'E-Doctor App',
+            type: 'Website',
+            description: 'An online clinic booking app where patients can easily login/register and book for clinics as per their preferred specialist.',
+            image: '/img/projects/doc.png',
+            link: 'https://e-doctor-pi.vercel.app/',
             imagePosition: 'left',
         },
         {
-            title: 'QNET Say NO! campaign',
+            title: 'Gig-Ahooy Delivery App',
             type: 'Website',
-            description: 'A website to mobilise stakeholder action against job scams, human trafficking and illegal migration in Africa.',
-            image: '/img/projects/2.png',
-            link: 'https://saynocampaign.org/',
+            description: 'A four-person collaboration delivery app/website that allows users to register/login and order for and send  deliveries  to their desired destinations with real-time up-to-date location of delivery person. .',
+            image: '/img/projects/gig.png',
+            link: 'https://gig-cyan.vercel.app/',
             imagePosition: 'right',
         },
         {
-            title: 'Third African Congress on Conservation Agriculture (3ACCA)',
-            type: 'Web App / CMS',
-            description: 'A Congress for building a Resilient Future in Africa through Conservation Agriculture and Sustainable Mechanisation.',
-            image: '/img/projects/3.png',
-            link: 'https://africacacongress.org/',
+            title: 'Digi-Bus-Pay',
+            type: 'Web App ',
+            description: 'An online payment system that provides a comprehensive solution for managing fare collection and reporting of bus services by admins and bus operators. .',
+            image: '/img/projects/trip.png',
+            link: 'https://digibus-pay.onrender.com',
             imagePosition: 'left',
         },
         {
-            title: 'Wilson Kinyua Portfolio',
-            type: 'UI/UX Design(Figma)',
+            title: 'Martin Maina Portfolio',
+            type: 'Vercel Website',
             description: 'A portfolio website to showcase my work and skills.',
             image: '/img/projects/6.png',
             link: 'https://www.figma.com/proto/qZamuTJoDF7IT96EL1iBcA?node-id=0-1&t=o97YJSuOXGST2RQG-6',
             imagePosition: 'right',
         },
         {
-            title: 'Paya Finance',
-            type: 'Mobile Application (IOS, Android)',
-            description: 'Paya lets you open a bank account in minutes and send money to anyone in seconds. Pay bills, make purchases, and transfer money with the Paya app.',
+            title: 'Harmony-Hub Music App',
+            type: 'Web & Mobile Application',
+            description: 'A music app from a four person collaboration where users engage with and satiate their music needs with endless playlists with integration using Spotify API.',
             image: '/img/projects/4.png',
-            link: 'https://play.google.com/store/apps/details?id=com.paya.paya&pcampaignid=web_share',
+            link: 'https://harmony-hub.onrender.com/',
             imagePosition: 'left',
-        },
-        {
-            title: 'The Newmark Group Limited',
-            type: 'Website / CMS',
-            description: 'A leading African Integrated Marketing Communications (IMC) firm that ranks among the fastest growing with a strong presence in the Multinational Brand segment of the market.',
-            image: '/img/projects/5.png',
-            link: 'https://newmark-imc.com/',
-            imagePosition: 'right',
-        },
+        }
+        // {
+        //     title: 'The Newmark Group Limited',
+        //     type: 'Website / CMS',
+        //     description: 'A leading African Integrated Marketing Communications (IMC) firm that ranks among the fastest growing with a strong presence in the Multinational Brand segment of the market.',
+        //     image: '/img/projects/5.png',
+        //     link: 'https://newmark-imc.com/',
+        //     imagePosition: 'right',
+        // },
     ]
     return (
         <>

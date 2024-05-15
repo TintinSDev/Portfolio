@@ -12,7 +12,7 @@ export default function SocialLinks() {
                 <TooltipProvider>
                     <Tooltip>
                         <TooltipTrigger>
-                            <a href="https://github.com/Wilsonkinyua"
+                            <a href="https://github.com/TintinSDev"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 title="Github Profile"
@@ -33,7 +33,7 @@ export default function SocialLinks() {
                 <TooltipProvider>
                     <Tooltip>
                         <TooltipTrigger>
-                            <a href="https://www.linkedin.com/in/wilsonkinyua/"
+                            <a href="https://www.linkedin.com/in/mainamartin/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -53,7 +53,7 @@ export default function SocialLinks() {
                 <TooltipProvider>
                     <Tooltip>
                         <TooltipTrigger>
-                            <a href="https://twitter.com/_wilsonkinyua"
+                            <a href="https://twitter.com/Sir_Mrtn?s=09"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -73,7 +73,7 @@ export default function SocialLinks() {
                 <TooltipProvider>
                     <Tooltip>
                         <TooltipTrigger>
-                            <a href="https://www.figma.com/@wilsonkinyua"
+                            <a href="https://www.figma.com/files/user/1298326112455451309?fuid=1298326112455451309"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -93,7 +93,7 @@ export default function SocialLinks() {
                 <TooltipProvider>
                     <Tooltip>
                         <TooltipTrigger>
-                            <a href="mailto:wilsonkinyuam@gmail.com"
+                            <a href="mailto:mmaina290@gmail.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

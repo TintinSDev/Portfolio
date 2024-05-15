@@ -36,7 +36,7 @@ export default function MouseCustomCursor() {
             width: '20px',
             height: '20px',
             borderRadius: '50%',
-            backgroundColor: '#FF014F',
+            backgroundColor: '#39bdbd',
             transform: 'translate(-50%, -50%)',
             transition: 'left 0.3s linear, top 0.1s linear'
         }} />
