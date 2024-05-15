@@ -11,6 +11,7 @@ import Projects from "@/components/projects";
 import Contact from "@/components/forms/contact";
 import Experience from "@/components/experience";
 import Link from "next/link";
+import { sendResumeViewedEmail } from '@/lib/actions';
 
 var ReactRotatingText = require("react-rotating-text");
 
@@ -53,13 +54,18 @@ export default function Home() {
               variant={"default"}
               className="lg:w-auto w-full"
               onClick={() => {
+                startTransition(async () => {
+                  await sendResumeViewedEmail();
                 window.open(
                   "https://drive.google.com/file/d/1UA3x_uJdqs2ALBD2zYWIlNPgHTXN7Y0o/view?usp=sharing",
                   "_blank"
                 );
+                });
               }}
+              disabled={transition}
             >
               Download Resume
+              {transition && <Loader className="ml-3 animate-spin" />}
             </Button>
             <Button variant={"outline"} className="lg:w-auto w-full" asChild>
               <Link href="#contact">Contact Me</Link>

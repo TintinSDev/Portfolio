@@ -24,7 +24,7 @@ export const sendEmail = async (name: string, email: string, message: string, su
     }
 
     return { data };
-};
+}
 
 export const sendResumeViewedEmail = async () => {
     const { data, error } = await resend.emails.send({
