@@ -2,7 +2,7 @@
 import AOS from "aos";
 import SocialLinks from "@/components/social-links";
 import { Button } from "@/components/ui/button";
-import { ChevronRight, CircleCheck } from "lucide-react";
+import { ChevronRight, CircleCheck, Loader } from "lucide-react";
 import Image from "next/image";
 import React, { useEffect, useTransition } from "react";
 import Skills from "@/components/skills";
