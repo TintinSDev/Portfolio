@@ -4,7 +4,7 @@ import SocialLinks from "@/components/social-links";
 import { Button } from "@/components/ui/button";
 import { ChevronRight, CircleCheck } from "lucide-react";
 import Image from "next/image";
-import React, { useEffect } from "react";
+import React, { useEffect, useTransition } from "react";
 import Skills from "@/components/skills";
 import Services from "@/components/services";
 import Projects from "@/components/projects";
@@ -16,6 +16,7 @@ import { sendResumeViewedEmail } from '@/lib/actions';
 var ReactRotatingText = require("react-rotating-text");
 
 export default function Home() {
+  const [transition, startTransition] = useTransition();
   useEffect(() => {
     AOS.init({});
   }, []);
