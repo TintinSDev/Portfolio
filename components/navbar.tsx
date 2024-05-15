@@ -49,7 +49,7 @@ export default function Navbar() {
         <div className="sticky top-0 z-10 navbar">
             <div className="flex justify-between items-center py-5 container mx-auto">
                 <Link href={"/"} className={`${pacifico.className} text-2xl`}>
-                    <span className="text-primary">W</span>ilson <span className="text-primary">K</span>inyua
+                <span className="text-primary">M</span>artin <span className="text-primary">M</span>aina
                 </Link>
                 <NavigationMenu>
                     <NavigationMenuList className="hidden lg:flex">
