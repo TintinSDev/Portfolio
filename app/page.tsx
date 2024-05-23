@@ -34,12 +34,12 @@ export default function Home() {
           <p className="lg:text-4xl text-xl text-primary font-semibold tracking-wide">
             <ReactRotatingText
               items={[
+                "DevOps Engineer..",
                 "Full-Stack Software Engineer",
+                "Project Lead Developer",
                 "Web & Apps Developer",
                 "Frontend Developer",
                 "Backend Developer",
-                "Project Lead Developer",
-                "Cloud Engineer",
                 "Tech enthusiast",
               ]}
             />
