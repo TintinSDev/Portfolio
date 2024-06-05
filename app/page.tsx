@@ -45,8 +45,8 @@ export default function Home() {
             />
           </p>
           <p className="lg:my-10 my-5 leading-10">
-            A DevOps Engineer from Nairobi, Kenyahave with {" "}
-            <span className="text-primary">+4 years</span> experience in the SDLC partaining to the
+            A DevOps Engineer from Nairobi, Kenya with {" "}
+            <span className="text-primary">+ 4 years</span> experience in the SDLC partaining to the
             evolutionary cycle for dynamic & robust web applications, app development, API
             integration and  CI/CD using Jenkins and cointanerization and orchestration using Docker and Kubernetes
           </p>
