@@ -120,13 +120,14 @@ export default function Services() {
                     <CardDescription
                         className="text-white uppercase font-bold pt-5"
                     >
-                        Mentorship
+                        DevOps
                     </CardDescription>
                 </CardHeader>
                 <CardContent>
-                    Get mentored by experienced
-                    developers and help them
-                    improve their skills
+                    Automation and integration of processes 
+                    between software development 
+                    and IT teams to build, test, 
+                    and release software faster and more reliably
                 </CardContent>
             </Card>
         </div>
