@@ -253,7 +253,7 @@ export default function Experience() {
                 </CardHeader>
               </Card>
             </li>
-            <li className="mb-10 ms-6">
+            {/* <li className="mb-10 ms-6">
               <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 dark:ring-primary/40 bg-primary animate-bounce">
                 <LampDesk className="w-4 h-4 text-white" />
               </span>
@@ -276,7 +276,7 @@ export default function Experience() {
                   </CardDescription>
                 </CardHeader>
               </Card>
-            </li>
+            </li> */}
           </ol>
         </div>
       </TabsContent>
