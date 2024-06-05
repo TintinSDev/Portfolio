@@ -110,7 +110,7 @@ export default function Home() {
             <span className="text-primary">Engineer</span>
           </h2>
           <p className="leading-10 my-5">
-            deeply committed to continuous learning and staying ahead of technology trends. 
+            Extremely deeply committed to continuous learning and staying ahead of technology trends. 
             This commitment fuels my passion for innovation and my ability to bring cutting-edge solutions to any organization. 
             My goal is to leverage my skills to create value, improve performance, and deliver exceptional results. 
             Proven leader with the ability to
