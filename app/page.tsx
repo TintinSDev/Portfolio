@@ -38,17 +38,17 @@ export default function Home() {
                 "Full-Stack Software Engineer",
                 "Project Lead Developer",
                 "Web & Apps Developer",
-                "Frontend Developer",
-                "Backend Developer",
+                "Database Management",
+                "Cloud Deployment",
                 "Tech enthusiast",
               ]}
             />
           </p>
           <p className="lg:my-10 my-5 leading-10">
-            From Nairobi, Kenya. I have more than{" "}
-            <span className="text-primary">4 years</span> experience in an
+            A DevOps Engineer from Nairobi, Kenya. I have more than{" "}
+            <span className="text-primary">4 years</span> experience in the SDLC partaining to the
             evolutionary cycle for dynamic & robust web applications, app development, API
-            integration and cloud deployment
+            integration and  CI/CD using Jenkins and cointanerization and orchestration using Docker and Kubernetes
           </p>
           <div className="lg:flex lg:gap-5 my-10 lg:space-y-0 space-y-3">
             <Button
@@ -110,10 +110,10 @@ export default function Home() {
             <span className="text-primary">Engineer</span>
           </h2>
           <p className="leading-10 my-5">
-            More than 4 years Experience in the development of software and
-            solutions. A conscientious person who pays attention to details.
-            Very passionate about software development, always willing and ready
-            to learn new things/concepts. Proven leader with the ability to
+            deeply committed to continuous learning and staying ahead of technology trends. 
+            This commitment fuels my passion for innovation and my ability to bring cutting-edge solutions to any organization. 
+            My goal is to leverage my skills to create value, improve performance, and deliver exceptional results. 
+            Proven leader with the ability to
             streamline development processes to drive the achievement of
             organisational objectives.
           </p>
