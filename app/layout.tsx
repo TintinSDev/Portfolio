@@ -11,7 +11,7 @@ import Footer from "@/components/footer";
 import { montserrat } from "@/lib/fonts";
 
 export const metadata: Metadata = {
-  title: "Martin Maina | Software Engineer",
+  title: "Martin Maina | DevOps Engineer",
   description: "Driven, innovative Software Engineer with experience in the development of software and solutions. A conscientious person who pays attention to details. Very passionate about software development, always willing and ready to learn new things/concepts. Proven leader with the ability to streamline development processes to drive the achievement of organizational objectives. An ambitious and generally curious professional who strives for greatness and is driven to grow himself and those around oneself through collaboration.",
 };
 
