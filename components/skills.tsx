@@ -28,7 +28,7 @@ export default function Skills() {
                 <CardHeader>
                     <CardTitle>
                         <Image
-                            src="/img/icons/kubernetes.svg"
+                            src="/img/icons/kubernets.svg"
                             alt="Kubernetes"
                             width={50}
                             height={50}
@@ -85,6 +85,22 @@ export default function Skills() {
                     </CardTitle>
                     <CardDescription className="text-white font-bold pt-5">
                         Jenkins
+                    </CardDescription>
+                </CardHeader>
+            </Card>
+            <Card className='text-center p-0'>
+                <CardHeader>
+                    <CardTitle>
+                        <Image
+                            src="/img/icons/go.svg"
+                            alt="Golang"
+                            width={50}
+                            height={50}
+                            className='mx-auto h-10 w-full'
+                        />
+                    </CardTitle>
+                    <CardDescription className="text-white font-bold pt-5">
+                        Golang
                     </CardDescription>
                 </CardHeader>
             </Card>
@@ -156,6 +172,22 @@ export default function Skills() {
                 <CardHeader>
                     <CardTitle>
                         <Image
+                            src="/img/icons/next-js.svg"
+                            alt="NextJs"
+                            width={50}
+                            height={50}
+                            className='mx-auto h-10 w-full'
+                        />
+                    </CardTitle>
+                    <CardDescription className="text-white font-bold pt-5">
+                        NextJS
+                    </CardDescription>
+                </CardHeader>
+            </Card>
+            <Card className='text-center p-0'>
+                <CardHeader>
+                    <CardTitle>
+                        <Image
                             src="/img/icons/python.svg"
                             alt="Python"
                             width={50}
@@ -165,22 +197,6 @@ export default function Skills() {
                     </CardTitle>
                     <CardDescription className="text-white font-bold pt-5">
                         Python
-                    </CardDescription>
-                </CardHeader>
-            </Card>
-            <Card className='text-center p-0'>
-                <CardHeader>
-                    <CardTitle>
-                        <Image
-                            src="/img/icons/go.svg"
-                            alt="Golang"
-                            width={50}
-                            height={50}
-                            className='mx-auto h-10 w-full'
-                        />
-                    </CardTitle>
-                    <CardDescription className="text-white font-bold pt-5">
-                        Golang
                     </CardDescription>
                 </CardHeader>
             </Card>
