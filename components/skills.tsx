@@ -12,6 +12,86 @@ export default function Skills() {
                 <CardHeader>
                     <CardTitle>
                         <Image
+                            src="/img/icons/devops.svg"
+                            alt="DevOps"
+                            width={50}
+                            height={50}
+                            className='mx-auto h-10 w-full'
+                        />
+                    </CardTitle>
+                    <CardDescription className="text-white font-bold pt-5">
+                        DevOps
+                    </CardDescription>
+                </CardHeader>
+            </Card>
+            <Card className='text-center p-0'>
+                <CardHeader>
+                    <CardTitle>
+                        <Image
+                            src="/img/icons/kubernetes.svg"
+                            alt="Kubernetes"
+                            width={50}
+                            height={50}
+                            className='mx-auto h-10 w-full'
+                        />
+                    </CardTitle>
+                    <CardDescription className="text-white font-bold pt-5">
+                        Kubernetes
+                    </CardDescription>
+                </CardHeader>
+            </Card>
+            <Card className='text-center p-0'>
+                <CardHeader>
+                    <CardTitle>
+                        <Image
+                            src="/img/icons/terraform.svg"
+                            alt="Terraform"
+                            width={50}
+                            height={50}
+                            className='mx-auto h-10 w-full'
+                        />
+                    </CardTitle>
+                    <CardDescription className="text-white font-bold pt-5">
+                        Terraform
+                    </CardDescription>
+                </CardHeader>
+            </Card>
+            <Card className='text-center p-0'>
+                <CardHeader>
+                    <CardTitle>
+                        <Image
+                            src="/img/icons/docker.svg"
+                            alt="Docker"
+                            width={50}
+                            height={50}
+                            className='mx-auto h-10 w-full'
+                        />
+                    </CardTitle>
+                    <CardDescription className="text-white font-bold pt-5">
+                        Docker
+                    </CardDescription>
+                </CardHeader>
+            </Card>
+            <Card className='text-center p-0'>
+                <CardHeader>
+                    <CardTitle>
+                        <Image
+                            src="/img/icons/jenkins.svg"
+                            alt="Jenkins"
+                            width={50}
+                            height={50}
+                            className='mx-auto h-10 w-full'
+                        />
+                    </CardTitle>
+                    <CardDescription className="text-white font-bold pt-5">
+                        Jenkins
+                    </CardDescription>
+                </CardHeader>
+            </Card>
+            <Card className='text-center p-0'>
+                <CardHeader>
+                    <CardTitle>
+                        <Image
                             src="/img/icons/js.svg"
                             alt="Javascript"
                             width={50}
@@ -44,6 +124,38 @@ export default function Skills() {
                 <CardHeader>
                     <CardTitle>
                         <Image
+                            src="/img/icons/vitejs.svg"
+                            alt="Vite"
+                            width={50}
+                            height={50}
+                            className='mx-auto h-10 w-full'
+                        />
+                    </CardTitle>
+                    <CardDescription className="text-white font-bold pt-5">
+                        ViteJS
+                    </CardDescription>
+                </CardHeader>
+            </Card>
+            <Card className='text-center p-0'>
+                <CardHeader>
+                    <CardTitle>
+                        <Image
+                            src="/img/icons/react.svg"
+                            alt="React"
+                            width={50}
+                            height={50}
+                            className='mx-auto h-10 w-full'
+                        />
+                    </CardTitle>
+                    <CardDescription className="text-white font-bold pt-5">
+                        ReactJS
+                    </CardDescription>
+                </CardHeader>
+            </Card>
+            <Card className='text-center p-0'>
+                <CardHeader>
+                    <CardTitle>
+                        <Image
                             src="/img/icons/python.svg"
                             alt="Python"
                             width={50}
@@ -61,7 +173,7 @@ export default function Skills() {
                     <CardTitle>
                         <Image
                             src="/img/icons/go.svg"
-                            alt="Python"
+                            alt="Golang"
                             width={50}
                             height={50}
                             className='mx-auto h-10 w-full'
@@ -69,22 +181,6 @@ export default function Skills() {
                     </CardTitle>
                     <CardDescription className="text-white font-bold pt-5">
                         Golang
-                    </CardDescription>
-                </CardHeader>
-            </Card>
-            <Card className='text-center p-0'>
-                <CardHeader>
-                    <CardTitle>
-                        <Image
-                            src="/img/icons/docker.svg"
-                            alt="PHP"
-                            width={50}
-                            height={50}
-                            className='mx-auto h-10 w-full'
-                        />
-                    </CardTitle>
-                    <CardDescription className="text-white font-bold pt-5">
-                        Docker
                     </CardDescription>
                 </CardHeader>
             </Card>
@@ -101,22 +197,6 @@ export default function Skills() {
                     </CardTitle>
                     <CardDescription className="text-white font-bold pt-5">
                         PyCharm
-                    </CardDescription>
-                </CardHeader>
-            </Card>
-            <Card className='text-center p-0'>
-                <CardHeader>
-                    <CardTitle>
-                        <Image
-                            src="/img/icons/react.svg"
-                            alt="React"
-                            width={50}
-                            height={50}
-                            className='mx-auto h-10 w-full'
-                        />
-                    </CardTitle>
-                    <CardDescription className="text-white font-bold pt-5">
-                        ReactJS
                     </CardDescription>
                 </CardHeader>
             </Card>
@@ -141,7 +221,7 @@ export default function Skills() {
                     <CardTitle>
                         <Image
                             src="/img/icons/redux.svg"
-                            alt="Angular"
+                            alt="Redux"
                             width={50}
                             height={50}
                             className='mx-auto h-10 w-full'
@@ -237,7 +317,7 @@ export default function Skills() {
                     <CardTitle>
                         <Image
                             src="/img/icons/flask.svg"
-                            alt="jQuery"
+                            alt="Flask"
                             width={50}
                             height={50}
                             className='mx-auto h-10 w-full'
@@ -253,7 +333,7 @@ export default function Skills() {
                     <CardTitle>
                         <Image
                             src="/img/icons/api.svg"
-                            alt="Wordpress"
+                            alt="APIs"
                             width={50}
                             height={50}
                             className='mx-auto h-10 w-full'
