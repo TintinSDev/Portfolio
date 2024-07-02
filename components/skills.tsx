@@ -60,6 +60,22 @@ export default function Skills() {
                 <CardHeader>
                     <CardTitle>
                         <Image
+                            src="/img/icons/go.svg"
+                            alt="Python"
+                            width={50}
+                            height={50}
+                            className='mx-auto h-10 w-full'
+                        />
+                    </CardTitle>
+                    <CardDescription className="text-white font-bold pt-5">
+                        Golang
+                    </CardDescription>
+                </CardHeader>
+            </Card>
+            <Card className='text-center p-0'>
+                <CardHeader>
+                    <CardTitle>
+                        <Image
                             src="/img/icons/docker.svg"
                             alt="PHP"
                             width={50}
@@ -104,7 +120,7 @@ export default function Skills() {
                     </CardDescription>
                 </CardHeader>
             </Card>
-            <Card className='text-center p-0'>
+            {/* <Card className='text-center p-0'>
                 <CardHeader>
                     <CardTitle>
                         <Image
@@ -119,7 +135,7 @@ export default function Skills() {
                         React Native
                     </CardDescription>
                 </CardHeader>
-            </Card>
+            </Card> */}
             <Card className='text-center p-0'>
                 <CardHeader>
                     <CardTitle>
