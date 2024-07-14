@@ -1,4 +1,4 @@
-Wilson Kinyua's Portfolio v2024
+Martin Maina's Portfolio v2024
 
 ## Getting Started
 
