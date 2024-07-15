@@ -24,6 +24,22 @@ export default function Skills() {
                     </CardDescription>
                 </CardHeader>
             </Card>
+             <Card className='text-center p-0'>
+                <CardHeader>
+                    <CardTitle>
+                        <Image
+                            src="/img/icons/aws.png"
+                            alt="Amazon Web Services"
+                            width={50}
+                            height={50}
+                            className='mx-auto h-10 w-full'
+                        />
+                    </CardTitle>
+                    <CardDescription className="text-white font-bold pt-5">
+                        AWS
+                    </CardDescription>
+                </CardHeader>
+            </Card>
             <Card className='text-center p-0'>
                 <CardHeader>
                     <CardTitle>
@@ -76,6 +92,22 @@ export default function Skills() {
                 <CardHeader>
                     <CardTitle>
                         <Image
+                            src="/img/icons/post.svg"
+                            alt="Postgresql"
+                            width={50}
+                            height={50}
+                            className='mx-auto h-10 w-full'
+                        />
+                    </CardTitle>
+                    <CardDescription className="text-white font-bold pt-5">
+                        Postgresql
+                    </CardDescription>
+                </CardHeader>
+            </Card>
+            <Card className='text-center p-0'>
+                <CardHeader>
+                    <CardTitle>
+                        <Image
                             src="/img/icons/jenkins.svg"
                             alt="Jenkins"
                             width={50}
@@ -120,7 +152,7 @@ export default function Skills() {
                     </CardDescription>
                 </CardHeader>
             </Card>
-            <Card className='text-center p-0'>
+            {/* <Card className='text-center p-0'>
                 <CardHeader>
                     <CardTitle>
                         <Image
@@ -135,7 +167,7 @@ export default function Skills() {
                         Typescript
                     </CardDescription>
                 </CardHeader>
-            </Card>
+            </Card> */}
             <Card className='text-center p-0'>
                 <CardHeader>
                     <CardTitle>
@@ -268,15 +300,15 @@ export default function Skills() {
                 <CardHeader>
                     <CardTitle>
                         <Image
-                            src="/img/icons/figma.svg"
-                            alt="Figma"
+                            src="/img/icons/azure.png"
+                            alt="Azure"
                             width={50}
                             height={50}
                             className='mx-auto h-10 w-full'
                         />
                     </CardTitle>
                     <CardDescription className="text-white font-bold pt-5">
-                        Figma
+                        Azure
                     </CardDescription>
                 </CardHeader>
             </Card>
@@ -296,7 +328,7 @@ export default function Skills() {
                     </CardDescription>
                 </CardHeader>
             </Card>
-            <Card className='text-center p-0'>
+            {/* <Card className='text-center p-0'>
                 <CardHeader>
                     <CardTitle>
                         <Image
@@ -311,7 +343,7 @@ export default function Skills() {
                         Tailwind CSS
                     </CardDescription>
                 </CardHeader>
-            </Card>
+            </Card> */}
             <Card className='text-center p-0'>
                 <CardHeader>
                     <CardTitle>
