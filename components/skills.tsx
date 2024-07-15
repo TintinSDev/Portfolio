@@ -92,7 +92,7 @@ export default function Skills() {
                 <CardHeader>
                     <CardTitle>
                         <Image
-                            src="/img/icons/post.svg"
+                            src="/img/icons/post.svg.png"
                             alt="Postgresql"
                             width={50}
                             height={50}
