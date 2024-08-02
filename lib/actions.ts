@@ -3,7 +3,7 @@
 
 import { Resend } from 'resend';
 
-const resend = new Resend('re_MAmoPkk5_Dg4USAzdGwSoVGFNVZi434jA');
+const resend = new Resend('re_63aXzFXk_6xv1gKePUat59yQoivQcXKNi');
 
 export const sendEmail = async (name: string, email: string, message: string, subject?: string, phoneNumber?: string) => {
     const { data, error } = await resend.emails.send({
