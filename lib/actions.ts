@@ -7,7 +7,7 @@ const resend = new Resend('re_63aXzFXk_6xv1gKePUat59yQoivQcXKNi');
 
 export const sendEmail = async (name: string, email: string, message: string, subject?: string, phoneNumber?: string) => {
     const { data, error } = await resend.emails.send({
-        from: 'TintinSDev Web 😃 <onboarding@resend.dev>',
+        from: '😃 <onboarding@resend.dev>',
         to: ["mmaina290@gmail.com"],
         subject: subject || `New Message from ${name} on TintinSDev`,
         html: `
@@ -28,11 +28,11 @@ export const sendEmail = async (name: string, email: string, message: string, su
 
 export const sendResumeViewedEmail = async () => {
     const { data, error } = await resend.emails.send({
-        from: 'TintinSDev Web 😃 <onboarding@resend.dev>',
+        from: 'Portfolio <onboarding@resend.dev>',
         to:["mmaina290@gmail.com"],
-        subject: 'Someone viewed your resume as at ' + new Date().toLocaleString(),
+        subject: 'RESUME VIEWED ' + new Date().toLocaleString(),
         html: `
-            <h5>Someone viewed your resume</h5>
+            <h5><strong>Your Resume has been viewed from your portfolio</strong></h5>
         `
     });
 
