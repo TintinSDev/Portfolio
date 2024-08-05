@@ -30,7 +30,7 @@ export const sendResumeViewedEmail = async () => {
     const { data, error } = await resend.emails.send({
         from: 'Portfolio <onboarding@resend.dev>',
         to:["mmaina290@gmail.com"],
-        subject: 'RESUME VIEWED ' + new Date().toLocaleString(),
+        subject: 'Portfolio Resume View ' + new Date().toLocaleString(),
         html: `
             <h5><strong>Your Resume has been viewed from your portfolio</strong></h5>
         `
