@@ -48,7 +48,7 @@ export default function Hire() {
                 }
 
                 startTransition(async () => {
-                    const sendNotification = await sendEmail(formState.fullName, formState.emailAddress, formState.message);
+                    const sendNotification = await sendEmail(formState.fullName, formState.emailAddress, formState.message, formState.message, 'N/A');
                     if (sendNotification.error) {
                         toast({
                             title: "Error",
