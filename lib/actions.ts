@@ -44,7 +44,7 @@ export const sendEmail = async (
     phoneNumber?: string
   ): Promise<any> => {
     const emailParams = new EmailParams()
-      .setFrom("info@martinmaina.dev")  // Make sure the 'from' email is valid
+      .setFrom("martinmaina.dev")  // Make sure the 'from' email is valid
       .setFromName("Martin")
       .setRecipients(recipients)
       .setSubject(subject || "Someone viewed your Resume")
