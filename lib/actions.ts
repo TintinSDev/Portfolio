@@ -36,23 +36,30 @@ const mailersend = new MailerSend({
 const recipients: Recipient[] = [new Recipient("mmaina290@gmail.com", "Recipient")];
 
 // Create email parameters
-export const sendEmail = new EmailParams()
-    .setFrom("martinmaina.dev")
-    .setFromName("Martin")
-    .setRecipients(recipients)
-    .setSubject("Someone viewed your Resume")
-    .setHtml("Greetings Martin.")
-    .setText("Greetings Martin.");
-
-// Send the email
-mailersend.send(sendEmail)
-    .then(response => {
-        console.log('Email sent successfully:', response);
-    })
-    .catch(error => {
-        console.error('Error sending email:', error);
-    });
-    
+export const sendEmail = async (
+    name: string,
+    email: string,
+    message: string,
+    subject: string,
+    phoneNumber?: string
+  ): Promise<any> => {
+    const emailParams = new EmailParams()
+      .setFrom("info@martinmaina.dev")  // Make sure the 'from' email is valid
+      .setFromName("Martin")
+      .setRecipients(recipients)
+      .setSubject(subject || "Someone viewed your Resume")
+      .setHtml(`Greetings Martin.<br><strong>Message:Resume Viewed</strong> ${message}<br><strong>Phone:</strong> ${phoneNumber || 'N/A'}`)
+      .setText(`Greetings Martin. Message: ${message}. Phone: ${phoneNumber || 'N/A'}`);
+  
+    try {
+      const response = await mailersend.send(emailParams);
+      console.log('Email sent successfully:', response);
+      return { data: response };
+    } catch (error) {
+      console.error('Error sending email:', error);
+      return { error };
+    }
+  };
     export const sendResumeViewedEmail = async (): Promise<void> => {
         const recipients: Recipient[] = [new Recipient("mmaina290@gmail.com", "Recipient")];
       
