@@ -41,8 +41,8 @@ export const sendEmail = new EmailParams()
     .setFromName("Martin")
     .setRecipients(recipients)
     .setSubject("Someone viewed your Resume")
-    .setHtml("Greetings from the team, you got this message through MailerSend.")
-    .setText("Greetings from the team, you got this message through MailerSend.");
+    .setHtml("Greetings Martin.")
+    .setText("Greetings Martin.");
 
 // Send the email
 mailersend.send(sendEmail)
@@ -52,23 +52,25 @@ mailersend.send(sendEmail)
     .catch(error => {
         console.error('Error sending email:', error);
     });
-
-export const sendResumeViewedEmail = new EmailParams()
-    .setFrom("martinmaina.dev")
-    .setFromName("Martin")
-    .setRecipients(recipients)
-    .setSubject('Portfolio Resume View ' + new Date().toLocaleString()) 
-    .setHtml( `
-            <h5><strong>Your Resume has been viewed from your portfolio</strong></h5>
-        `)
-
-mailersend.send(sendResumeViewedEmail)
-    .then(response => {
-        console.log('Email sent successfully:', response);
-    })
-    .catch(error => {
-        console.error('Error sending email:', error);
-    });
+    
+    export const sendResumeViewedEmail = async (): Promise<void> => {
+        const recipients: Recipient[] = [new Recipient("mmaina290@gmail.com", "Recipient")];
+      
+        const emailParams = new EmailParams()
+          .setFrom("martinmaina.dev")
+          .setFromName("Resume Viewer")
+          .setRecipients(recipients)
+          .setSubject("Resume Viewed")
+          .setHtml("Your resume has been viewed.")
+          .setText("Your resume has been viewed.");
+      
+        try {
+          const response = await mailersend.send(emailParams);
+          console.log('Email sent successfully:', response);
+        } catch (error) {
+          console.error('Error sending email:', error);
+        }
+      };
 
 
 // export const sendResumeViewedEmail = async () => {
