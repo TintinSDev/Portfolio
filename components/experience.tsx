@@ -271,11 +271,18 @@ export default function Experience() {
                     </p>
                     <Separator className="my-5 bg-primary" />
                     <ol className="list-disc list-outside leading-8 ml-4 text-gray-300 text-sm">
-                      <li>Development, maintenance, and management of
-                          computer and network systems with practical skills
-                          in managing operating systems, designing software,
-                          analyzing systems, building network applications,
-                          and programming.</li>
+                      <li>Development, maintenance, and management of computer and network systems.</li> 
+                      <li> Practical skills in managing operating systems, designing software,
+                          analyzing systems, building network applications, and programming.</li>
+                      <strong>Technical Skills:</strong>
+                      <li>Programming (Python, Java, C++, JavaScript)</li>
+                      <li>Database Management (SQL, NoSQL)</li>
+                      <li>Networking (Protocols, Security, Administration)</li>
+                      <li>Web Development (HTML, CSS, JavaScript frameworks)</li>
+                      <li>Cybersecurity (Principles, Threat Analysis, Security Measures)</li>
+                      <li>Software Development (Design, Development, Testing)</li>
+                      <li>Data Analysis and Visualization (Python, R, Power BI)</li>
+                      <li>Cloud Computing (AWS, Azure, GCP)</li>
                     </ol>
                   </CardDescription>
                 </CardHeader>
