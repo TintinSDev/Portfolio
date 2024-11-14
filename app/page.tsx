@@ -58,7 +58,7 @@ export default function Home() {
                 startTransition(async () => {
                   await sendResumeViewedEmail();
                 window.open(
-                  "https://drive.google.com/file/d/1YbbwiQK0qI2Ij-yb9hfIAS1c1jBxGJn4/view",
+                  "https://drive.google.com/file/d/1kOzu4KVeAtcgGmeTnotwaiA2LJGQHiWL/view?usp=sharing",
                   "_blank"
                 );
                 });
