@@ -253,7 +253,7 @@ export default function Experience() {
                 </CardHeader>
               </Card>
             </li>
-            {/* <li className="mb-10 ms-6">
+             <li className="mb-10 ms-6">
               <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 dark:ring-primary/40 bg-primary animate-bounce">
                 <LampDesk className="w-4 h-4 text-white" />
               </span>
@@ -261,22 +261,26 @@ export default function Experience() {
                 <CardHeader>
                   <CardDescription>
                     <p className="flex items-center lg:text-lg font-bold text-primary">
-                      Kenya Medical Training Campus
+                      KCA UNIVERSITY
                     </p>
                     <p className="flex items-center justify-between my-5 font-semibold lg:text-lg text-xs">
-                      <span>Diploma in Pharmacy</span>
+                      <span>BSc. Information Technology</span>
                       <time className="block text-sm text-primary/90">
-                        Mar 2016 - Feb 2019
+                        Jan 2025 - Aug 2027
                       </time>
                     </p>
                     <Separator className="my-5 bg-primary" />
                     <ol className="list-disc list-outside leading-8 ml-4 text-gray-300 text-sm">
-                      <li>Upscaled a career in medicine</li>
+                      <li>Development, maintenance, and management of
+                          computer and network systems with practical skills
+                          in managing operating systems, designing software,
+                          analyzing systems, building network applications,
+                          and programming.</li>
                     </ol>
                   </CardDescription>
                 </CardHeader>
               </Card>
-            </li> */}
+            </li> 
           </ol>
         </div>
       </TabsContent>
