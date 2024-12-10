@@ -11,7 +11,7 @@ import Footer from "@/components/footer";
 import { montserrat } from "@/lib/fonts";
 
 export const metadata: Metadata = {
-  title: "Martin Maina | DevOps Engineer",
+  title: "Martin Maina | DevSecOps | ",
   description: "Driven, innovative Software Engineer with experience in the development of software and solutions. A conscientious person who pays attention to details. Very passionate about software development, always willing and ready to learn new things/concepts. Proven leader with the ability to streamline development processes to drive the achievement of organizational objectives. An ambitious and generally curious professional who strives for greatness and is driven to grow himself and those around oneself through collaboration.",
 };
 
@@ -23,10 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>Martin Maina | DevOps Engineer</title>
+        <title>Martin Maina | DevSecOps Engineer</title>
         <meta name="title" content="Martin Maina | Full-Stack Software Engineer" />
         <meta name="description" content="Driven, innovative Software Engineer with experience in the development of software and solutions. A conscientious person who pays attention to details. Very passionate about software development, always willing and ready to learn new things/concepts. Proven leader with the ability to streamline development processes to drive the achievement of organizational objectives. An ambitious and generally curious professional who strives for greatness and is driven to grow himself and those around oneself through collaboration." />
-        <meta name="keywords" content=" Project Lead Developer | Full-Stack Software Engineer | Cloud Engineer | Frontend Engineer | Backend Engineer" />
+        <meta name="keywords" content="DevSecOps Engineer | Full-Stack Software Engineer | Security Engineer | Frontend Dev | Backend Dev | Pen. Tester " />
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.martinmaina.dev/" />
