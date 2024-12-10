@@ -34,21 +34,20 @@ export default function Home() {
           <p className="lg:text-4xl text-xl text-primary font-semibold tracking-wide">
             <ReactRotatingText
               items={[
-                "DevOps Engineer..",
+                "DevSecOps Engineer..",
                 "Full-Stack Software Engineer",
-                "Project Lead Developer",
                 "Web & Apps Developer",
                 "Database Management",
-                "Cloud Deployment",
+                "CyberSecurity",
                 "Tech enthusiast",
               ]}
             />
           </p>
           <p className="lg:my-10 my-5 leading-10">
-            A DevOps Engineer from Nairobi, Kenya with {" "}
-            <span className="text-primary">+ 4 years</span> experience in the SDLC partaining to the
+            A DevSecOps Engineer from Nairobi, Kenya with {" "}
+            <span className="text-primary">+ 3 years</span> experience in the SDLC partaining to the
             evolutionary cycle for dynamic & robust web applications, app development, API
-            integration and  CI/CD using Jenkins and cointanerization and orchestration using Docker and Kubernetes
+            integration and  CI/CD using Jenkins and cointanerization and orchestration using Docker and Kubernetes.
           </p>
           <div className="lg:flex lg:gap-5 my-10 lg:space-y-0 space-y-3">
             <Button
