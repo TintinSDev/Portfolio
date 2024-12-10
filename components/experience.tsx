@@ -238,9 +238,9 @@ export default function Experience() {
                       Moringa School
                     </p>
                     <p className="flex items-center justify-between my-5 font-semibold lg:text-lg text-xs">
-                      <span>Software Development</span>
+                      <span>Full- Stack Software Development</span>
                       <time className="block text-sm text-primary/90">
-                        Sep 2023 - May 2024
+                        Sep 2023 - Jun 2024
                       </time>
                     </p>
                     <Separator className="my-5 bg-primary" />
@@ -266,7 +266,7 @@ export default function Experience() {
                     <p className="flex items-center justify-between my-5 font-semibold lg:text-lg text-xs">
                       <span>BSc. Information Technology</span>
                       <time className="block text-sm text-primary/90">
-                        Jan 2025 - Aug 2027
+                        {/*Jan 2025 - Aug 2027*/}
                       </time>
                     </p>
                     <Separator className="my-5 bg-primary" />
