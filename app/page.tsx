@@ -12,6 +12,8 @@ import Contact from "@/components/forms/contact";
 import Experience from "@/components/experience";
 import Link from "next/link";
 import { sendResumeViewedEmail } from '@/lib/actions';
+import Hero from "./Hero";
+
 
 var ReactRotatingText = require("react-rotating-text");
 
@@ -22,6 +24,7 @@ export default function Home() {
   }, []);
   return (
     <React.Fragment>
+       
       {/* intro */}
       <section className="grid lg:grid-cols-2 grid-cols-1 items-center lg:text-left text-center">
         <div className="lg:order-1 order-2 lg:my-0 my-10">
@@ -143,6 +146,7 @@ export default function Home() {
             </li>
           </ul>
           <SocialLinks />
+          <Hero />
         </div>
       </section>
       {/* services */}

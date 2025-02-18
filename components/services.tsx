@@ -1,3 +1,4 @@
+import Hero from "@/app/Hero";
 import {
     Card,
     CardContent,
@@ -9,6 +10,7 @@ import {
 import { Code, Component, Globe, Phone, TabletSmartphone, Users, Wallet } from "lucide-react";
 export default function Services() {
     return (
+        
         <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 my-10">
             <Card className='text-center'>
                 <CardHeader>
@@ -130,6 +132,7 @@ export default function Services() {
                     and release software faster and more reliably
                 </CardContent>
             </Card>
+            <Hero />
         </div>
     )
 }

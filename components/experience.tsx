@@ -290,7 +290,9 @@ export default function Experience() {
             </li> 
           </ol>
         </div>
+  
       </TabsContent>
     </Tabs>
+    
   );
 }

@@ -1,4 +1,5 @@
 "use client"
+import Hero from "@/app/Hero"
 import {
     Card,
     CardDescription,
