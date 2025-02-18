@@ -60,30 +60,22 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+        spotlight: {
+          "0%": { opacity: "0", transform: "scale(0.5) translateX(-72%, -62%)" },
+          "100%": { opacity: "1", transform: "scale(1) translateX(-50%, -40%)" },
+        },
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
         },
-        "accordion-up": {
-          from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: "0" },
-        },
+        "accordion-up": { from: { height: "var(--radix-accordion-content-height)" }, to: { height: "0" } },
+
       },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
       },
-      keyframes: {
-        spotlight: {
-          "0%": {
-            opacity: 0,
-            transform: "translate(-72%, -62%) scale(0.5)",
-          },
-          "100%": {
-            opacity: 1,
-            transform: "translate(-50%,-40%) scale(1)",
-          },
-        },
-      },
+     
+      
     },
   },
   plugins: [require("tailwindcss-animate")],
