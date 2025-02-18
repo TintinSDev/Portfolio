@@ -23,8 +23,8 @@ export default function Home() {
     AOS.init({});
   }, []);
   return (
+   
     <React.Fragment>
-       
       {/* intro */}
       <section className="grid lg:grid-cols-2 grid-cols-1 items-center lg:text-left text-center">
         <div className="lg:order-1 order-2 lg:my-0 my-10">
@@ -45,6 +45,7 @@ export default function Home() {
                 "Tech enthusiast",
               ]}
             />
+          
           </p>
           <p className="lg:my-10 my-5 leading-10">
             A DevSecOps Engineer from Nairobi, Kenya with {" "}
@@ -86,6 +87,7 @@ export default function Home() {
           unoptimized={true}
         />
       </section>
+      <Hero />
       {/* about me */}
       <section
         className="grid lg:grid-cols-2 grid-cols-1 items-center gap-20 lg:my-20 my-5"
