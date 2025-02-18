@@ -32,7 +32,7 @@ export default function Experience() {
                         Oasis InfoByte
                       </p>
                       <p className="flex items-center justify-between my-5 font-semibold lg:text-lg text-xs">
-                        <span>Software Engineer</span>
+                        <span>Web Developer Intern</span>
                         <time className="block text-sm text-primary/90">
                           Feb 2024 - Mar 2024
                         </time>
@@ -70,7 +70,7 @@ export default function Experience() {
                       <p className="flex items-center justify-between my-5 font-semibold lg:text-lg text-xs">
                         <span>Freelance Software Engineer</span>
                         <time className="block text-sm text-primary/90">
-                          Jan 2021 - To date
+                          Jan 2022 - To date
                         </time>
                       </p>
                       <Separator className="my-5 bg-primary" />

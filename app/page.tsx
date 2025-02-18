@@ -90,7 +90,7 @@ export default function Home() {
       >
         <div className="rounded-lg h-full border-t-4 border-b-4 border-primary-foreground transition duration-500 hover:border-primary">
           <Image
-            src="/img/hold.png"
+            src="/img/left3.png"
             alt="About Martin Maina"
             width={500}
             height={500}
