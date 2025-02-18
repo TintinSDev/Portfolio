@@ -24,9 +24,9 @@ const config = {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        icon: "#1d2f00",
+        icon: "#75abdb",
         primary: {
-          DEFAULT: "#39bdbd",
+          DEFAULT: "#497ead",
           foreground: "#1E1E1E",
         },
         secondary: {
