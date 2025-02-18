@@ -1,5 +1,4 @@
 "use client"
-import Hero from "@/app/Hero"
 import {
     Card,
     CardDescription,
@@ -56,14 +55,6 @@ export default function Projects() {
             link: 'https://harmony-hub.onrender.com/',
             imagePosition: 'left',
         }
-        // {
-        //     title: 'The Newmark Group Limited',
-        //     type: 'Website / CMS',
-        //     description: 'A leading African Integrated Marketing Communications (IMC) firm that ranks among the fastest growing with a strong presence in the Multinational Brand segment of the market.',
-        //     image: '/img/projects/5.png',
-        //     link: 'https://newmark-imc.com/',
-        //     imagePosition: 'right',
-        // },
     ]
     return (
         <>
