@@ -32,26 +32,25 @@ export default function Home() {
             HELLO, I&apos;M
           </p>
           <h1 className="lg:text-5xl text-2xl font-black tracking-[0.1rem] lg:my-5 my-2">
-            <span className="text-primary">Martin</span> Maina
+            <span className="text-primary">Martin</span> Maina 
           </h1>
           <p className="lg:text-4xl text-xl text-primary font-semibold tracking-wide">
             <ReactRotatingText
               items={[
                 "DevSecOps Engineer..",
-                "Full-Stack Software Engineer",
-                "Web & Apps Developer",
-                "Database Management",
-                "CyberSecurity",
-                "Tech enthusiast",
+                "Full-Stack Developer",
+                "Web Developer",
+                "Mobile Developer",
+                "CyberSecurity Enthusiast",
               ]}
             />
           
           </p>
           <p className="lg:my-10 my-5 leading-10">
-            A DevSecOps Engineer from Nairobi, Kenya with {" "}
-            <span className="text-primary">+ 3 years</span> experience in the SDLC partaining to the
-            evolutionary cycle for dynamic & robust web applications, app development, API
-            integration and  CI/CD using Jenkins and cointanerization and orchestration using Docker and Kubernetes.
+            A DevSecOps Engineer 👨🏼‍💻 with {" "}
+            <span className="text-primary">over 4 years</span> experience in the SDLC partaining to the
+            evolutionary cycle for dynamic & robust web applications, security engineering, API
+            integration, DevOps and everything CI/CD.
           </p>
           <div className="lg:flex lg:gap-5 my-10 lg:space-y-0 space-y-3">
             <Button

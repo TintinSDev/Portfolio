@@ -1,18 +1,20 @@
 import type { Metadata } from "next";
-import { Analytics } from "@vercel/analytics/react"
-import { ThemeProvider } from "@/components/theme-provider"
-import 'aos/dist/aos.css';
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+import { ThemeProvider } from "@/components/theme-provider";
+import "aos/dist/aos.css";
 import "../styles/globals.scss";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/navbar";
 import MouseCustomCursor from "@/components/mouse-custom-cursor";
-import { Toaster } from "@/components/ui/toaster"
+import { Toaster } from "@/components/ui/toaster";
 import Footer from "@/components/footer";
 import { montserrat } from "@/lib/fonts";
 
 export const metadata: Metadata = {
-  title: "Martin Maina | DevSecOps | ",
-  description: "Driven, innovative Software Engineer with experience in the development of software and solutions. A conscientious person who pays attention to details. Very passionate about software development, always willing and ready to learn new things/concepts. Proven leader with the ability to streamline development processes to drive the achievement of organizational objectives. An ambitious and generally curious professional who strives for greatness and is driven to grow himself and those around oneself through collaboration.",
+  title: "Martin Maina | DevSecOps Engineer | ",
+  description:
+    "Driven, innovative Software Developer & Engineer with experience in the development of software and solutions. A conscientious person who pays attention to details. Very passionate about software development, always willing and ready to learn new things/concepts. Proven leader with the ability to streamline development processes to drive the achievement of organizational objectives. An ambitious and generally curious professional who strives for greatness and is driven to grow himself and those around oneself through collaboration.",
 };
 
 export default function RootLayout({
@@ -23,29 +25,44 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>Martin Maina | DevSecOps Engineer</title>
-        <meta name="title" content="Martin Maina | Full-Stack Software Engineer" />
-        <meta name="description" content="Driven, innovative Software Engineer with experience in the development of software and solutions. A conscientious person who pays attention to details. Very passionate about software development, always willing and ready to learn new things/concepts. Proven leader with the ability to streamline development processes to drive the achievement of organizational objectives. An ambitious and generally curious professional who strives for greatness and is driven to grow himself and those around oneself through collaboration." />
-        <meta name="keywords" content="DevSecOps Engineer | Full-Stack Software Engineer | Security Engineer | Frontend Dev | Backend Dev | Pen. Tester " />
+        <title>Martin Maina | DevSecOps Engineer </title>
+        <meta name="title" content="Martin Maina | DevSecOps Engineer" />
+        <meta
+          name="description"
+          content="Driven, innovative Software Engineer with experience in the development of software and solutions. A conscientious person who pays attention to details. Very passionate about software development, always willing and ready to learn new things/concepts. Proven leader with the ability to streamline development processes to drive the achievement of organizational objectives. An ambitious and generally curious professional who strives for greatness and is driven to grow himself and those around oneself through collaboration."
+        />
+        <meta
+          name="keywords"
+          content="DevSecOps Engineer | Full-Stack Software Developer| Security Engineer | Frontend Dev | Backend Dev | Pen. Tester "
+        />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.martinmaina.dev/" />
+        <meta property="og:url" content="https://martinmaina-nu.vercel.app/" />
         <meta property="og:title" content="Martin Maina | Software Engineer" />
-        <meta property="og:description" content="Driven, innovative Software Engineer with experience in the development of software and solutions. A conscientious person who pays attention to details. Very passionate about software development, always willing and ready to learn new things/concepts. Proven leader with the ability to streamline development processes to drive the achievement of organizational objectives. An ambitious and generally curious professional who strives for greatness and is driven to grow himself and those around oneself through collaboration." />
+        <meta
+          property="og:description"
+          content="Driven, innovative Software Engineer with experience in the development of software and solutions. A conscientious person who pays attention to details. Very passionate about software development, always willing and ready to learn new things/concepts. Proven leader with the ability to streamline development processes to drive the achievement of organizational objectives. An ambitious and generally curious professional who strives for greatness and is driven to grow himself and those around oneself through collaboration."
+        />
         <meta property="og:image" content="/img/me.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.martinmaina.dev/" />
-        <meta property="twitter:title" content="Martin Maina | Software Engineer" />
-        <meta property="twitter:description" content="Driven, innovative Software Engineer with experience in the development of software and solutions. A conscientious person who pays attention to details. Very passionate about software development, always willing and ready to learn new things/concepts. Proven leader with the ability to streamline development processes to drive the achievement of organizational objectives. An ambitious and generally curious professional who strives for greatness and is driven to grow himself and those around oneself through collaboration." />
+        <meta
+          property="twitter:url"
+          content="https://martinmaina-nu.vercel.app/"
+        />
+        <meta
+          property="twitter:title"
+          content="Martin Maina | Software Engineer"
+        />
+        <meta
+          property="twitter:description"
+          content="Driven, innovative Software Engineer with experience in the development of software and solutions. A conscientious person who pays attention to details. Very passionate about software development, always willing and ready to learn new things/concepts. Proven leader with the ability to streamline development processes to drive the achievement of organizational objectives. An ambitious and generally curious professional who strives for greatness and is driven to grow himself and those around oneself through collaboration."
+        />
         <meta property="twitter:image" content="/img/me.png" />
 
         <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
-
       </head>
-      <body
-        className={cn(montserrat.className)}
-      >
+      <body className={cn(montserrat.className)}>
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
@@ -53,16 +70,13 @@ export default function RootLayout({
         >
           <MouseCustomCursor />
           <Navbar />
-          <main className="container mx-auto">
-            {children}
-          </main>
+          <main className="container mx-auto">{children}</main>
           <Footer />
           <Analytics />
+          <SpeedInsights />
         </ThemeProvider>
-        <Toaster
-        />
+        <Toaster />
       </body>
     </html>
   );
 }
-

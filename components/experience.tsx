@@ -21,6 +21,64 @@ export default function Experience() {
         <div className="grid lg:grid-cols-2 gap-5">
           <div className="p-5">
             <ol className="relative border-s-4 border-primary-foreground">
+              <li className="ms-6">
+                <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 dark:ring-primary/40 bg-primary animate-bounce">
+                  <School className="w-4 h-4 text-white" />
+                </span>
+                <Card className={`card-glassmorphism p-2`}>
+                  <CardHeader>
+                    <CardDescription>
+                      <p className="flex items-center lg:lg:text-lg font-bold text-primary">
+                        K & Co. Limited
+                      </p>
+                      <p className="flex items-center justify-between my-5 font-semibold lg:text-lg text-xs">
+                        <span>Systems Developer</span>
+                        <time className="block text-sm text-primary/90">
+                          Mar 2025 - To Date
+                        </time>
+                      </p>
+                      <Separator className="my-5 bg-primary" />
+                      <ol className="list-disc list-outside leading-8 ml-4 text-gray-300 text-sm italic">
+                        <li>
+                          Implemented robust testing protocols including unit,
+                          integration, and end-to-end tests to ensure code
+                          quality and system reliability.
+                        </li>
+                        <li>
+                          Collaborated with cross-functional teams including
+                          product managers, UI/UX designers, and quality
+                          assurance to translate business requirements into
+                          technical solutions.
+                        </li>
+                        <li>
+                          Spearheaded the development of the driver's mobile app
+                          and architected a robust notification service for
+                          riders, drivers, and customer care agents.
+                        </li>
+                        <li>
+                          Integrated third-party APIs and services for features
+                          such as payment processing, mapping, and real-time
+                          location tracking.
+                        </li>
+                        <li>
+                          Participated in code reviews to maintain coding
+                          standards, improve security, and foster a
+                          collaborative development environment.
+                        </li>
+                        <li>
+                          Championed agile and DevOps methodologies within the
+                          team to improve project delivery speed and efficiency.
+                        </li>
+                        <li>
+                          Acted as a liaison between the development team and
+                          key stakeholders to ensure project alignment and
+                          communication.
+                        </li>
+                      </ol>
+                    </CardDescription>
+                  </CardHeader>
+                </Card>
+              </li>
               <li className="mb-10 ms-6">
                 <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 dark:ring-primary/40 bg-primary animate-bounce">
                   <LampDesk className="w-4 h-4 text-white" />
@@ -70,7 +128,7 @@ export default function Experience() {
                       <p className="flex items-center justify-between my-5 font-semibold lg:text-lg text-xs">
                         <span>Freelance Software Engineer</span>
                         <time className="block text-sm text-primary/90">
-                          Jan 2022 - To date
+                          Jan 2022 - Jan 2025
                         </time>
                       </p>
                       <Separator className="my-5 bg-primary" />
@@ -95,37 +153,37 @@ export default function Experience() {
                   </CardHeader>
                 </Card>
               </li>
-              {/*  <li className="ms-6">
+              {/* <li className="ms-6">
                                 <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 dark:ring-primary/40 bg-primary animate-bounce">
                                     <School className="w-4 h-4 text-white" />
                                 </span>
                                 <Card className={`card-glassmorphism p-2`}>
                                     <CardHeader>
                                         <CardDescription>
-                                            <p className="flex items-center lg:text-lg font-bold text-primary">Moringa School</p>
+                                            <p className="flex items-center lg:text-lg font-bold text-primary"></p>
                                             <p className="flex items-center justify-between my-5 font-semibold text-xs">
-                                                <span>Technical Mentor/Trainer</span>
-                                                <time className="block text-sm text-primary/90">May 2022 - Sep 2023</time>
+                                                <span></span>
+                                                <time className="block text-sm text-primary/90"></time>
                                             </p>
                                             <Separator className="my-5 bg-primary" />
                                             <ol className="list-disc list-outside leading-8 ml-4 text-gray-300 text-sm italic">
                                                 <li>
-                                                    Facilitating daily standups, and lab classes, and providing technical mentorship to students in a classroom setting.
+                                                   
                                                 </li>
                                                 <li>
-                                                    Supporting student growth through labs and practice sessions, and providing timely and effective feedback on their work and assessments.
+                                                   
                                                 </li>
                                                 <li>
-                                                    Supporting student development through one-on-one mentoring.
+                                                    
                                                 </li>
                                             </ol>
                                         </CardDescription>
                                     </CardHeader>
                                 </Card>
-                            </li>
-                        </ol>
-                    </div>
-                    <div className="p-5">
+                            </li> */}
+            </ol>
+          </div>
+          {/* <div className="p-5">
                         <ol className="relative border-s-4 border-primary-foreground">
                             <li className="mb-10 ms-6">
                                 <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 dark:ring-primary/40 bg-primary animate-bounce">
@@ -134,21 +192,21 @@ export default function Experience() {
                                 <Card className={`card-glassmorphism p-2`}>
                                     <CardHeader>
                                         <CardDescription>
-                                            <p className="flex items-center lg:text-lg font-bold text-primary">Brance Technologies</p>
+                                            <p className="flex items-center lg:text-lg font-bold text-primary"></p>
                                             <p className="flex items-center justify-between my-5 font-semibold lg:text-lg text-xs">
-                                                <span>Full Stack Developer</span>
-                                                <time className="block text-sm text-primary/90">Jan 2022 - Mar 2022</time>
+                                                <span></span>
+                                                <time className="block text-sm text-primary/90"></time>
                                             </p>
                                             <Separator className="my-5 bg-primary" />
                                             <ol className="list-disc list-outside leading-8 ml-4 text-gray-300 text-sm">
                                                 <li>
-                                                    Design and implement scalable web services, applications, and APIs using Javascript and Laravel.
+                                                    
                                                 </li>
                                                 <li>
-                                                    Structure system requirements and suggest a testing and development roadmap.
+                                                    
                                                 </li>
                                                 <li>
-                                                    Set up Continuous Integration Testing and testing to guard against regression of the codebase.
+                                                    
                                                 </li>
                                             </ol>
                                         </CardDescription>
@@ -162,23 +220,21 @@ export default function Experience() {
                                 <Card className={`card-glassmorphism p-2`}>
                                     <CardHeader>
                                         <CardDescription>
-                                            <p className="flex items-center lg:text-lg font-bold text-primary">Premiersoft Technologies</p>
+                                            <p className="flex items-center lg:text-lg font-bold text-primary"></p>
                                             <p className="flex items-center justify-between my-5 font-semibold lg:text-lg text-xs">
-                                                <span>Full Stack Developer</span>
-                                                <time className="block text-sm text-primary/90">Oct 2020 - Mar 2021</time>
+                                                <span></span>
+                                                <time className="block text-sm text-primary/90"></time>
                                             </p>
                                             <Separator className="my-5 bg-primary" />
                                             <ol className="list-disc list-outside leading-8 ml-4 text-gray-300 text-sm italic">
                                                 <li>
-                                                    Develop and implement the company&apos;s web application using PHP/Laravel
+                                                    
                                                 </li>
                                                 <li>
-                                                    Develop new features and infrastructure development in support of rapidly emerging businesses and
-                                                    project requirements
+                                                   
                                                 </li>
                                                 <li>
-                                                    Ensure application performance, uptime, and scale, maintaining high standards of code quality and
-                                                    thoughtful application design
+                                                
                                                 </li>
                                             </ol>
                                         </CardDescription>
@@ -192,31 +248,29 @@ export default function Experience() {
                                 <Card className={`card-glassmorphism p-2`}>
                                     <CardHeader>
                                         <CardDescription>
-                                            <p className="flex items-center lg:text-lg font-bold text-primary">Korean Kenya Solar Limited</p>
+                                            <p className="flex items-center lg:text-lg font-bold text-primary"></p>
                                             <p className="flex items-center justify-between my-5 font-semibold lg:text-lg text-xs">
-                                                <span>Full Stack Developer</span>
-                                                <time className="block text-sm text-primary/90">Sep 2020 - Oct 2020</time>
+                                                <span></span>
+                                                <time className="block text-sm text-primary/90"></time>
                                             </p>
                                             <Separator className="my-5 bg-primary" />
                                             <ol className="list-disc list-outside leading-8 ml-4 text-gray-300 text-sm italic">
                                                 <li>
-                                                    Involved in developing and implementing the web application using RESTful APIs (Laravel
-                                                    +Angular)
+                                                    
                                                 </li>
                                                 <li>
-                                                    Took full-service ownership constantly monitoring web transactions, error rates, and data quality
-                                                    to identify, and prioritize problems
+                                                    
                                                 </li>
                                                 <li>
-                                                    Collaborated with the design team on developing micro-services
+                                                   
                                                 </li>
                                             </ol>
                                         </CardDescription>
                                     </CardHeader>
                                 </Card>
-                            </li> */}
+                            </li> 
             </ol>
-          </div>
+          </div> */}
         </div>
       </TabsContent>
       <TabsContent value="education">
@@ -253,7 +307,7 @@ export default function Experience() {
                 </CardHeader>
               </Card>
             </li>
-             <li className="mb-10 ms-6">
+            <li className="mb-10 ms-6">
               <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 dark:ring-primary/40 bg-primary animate-bounce">
                 <LampDesk className="w-4 h-4 text-white" />
               </span>
@@ -271,28 +325,42 @@ export default function Experience() {
                     </p>
                     <Separator className="my-5 bg-primary" />
                     <ol className="list-disc list-outside leading-8 ml-4 text-gray-300 text-sm">
-                      <li>Development, maintenance, and management of computer and network systems.</li> 
-                      <li> Practical skills in managing operating systems, designing software,
-                          analyzing systems, building network applications, and programming.</li>
+                      <li>
+                        Development, maintenance, and management of computer and
+                        network systems.
+                      </li>
+                      <li>
+                        {" "}
+                        Practical skills in managing operating systems,
+                        designing software, analyzing systems, building network
+                        applications, and programming.
+                      </li>
                       <strong>Technical Skills:</strong>
                       <li>Programming (Python, Java, C++, JavaScript)</li>
                       <li>Database Management (SQL, NoSQL)</li>
                       <li>Networking (Protocols, Security, Administration)</li>
-                      <li>Web Development (HTML, CSS, JavaScript frameworks)</li>
-                      <li>Cybersecurity (Principles, Threat Analysis, Security Measures)</li>
-                      <li>Software Development (Design, Development, Testing)</li>
-                      <li>Data Analysis and Visualization (Python, R, Power BI)</li>
+                      <li>
+                        Web Development (HTML, CSS, JavaScript frameworks)
+                      </li>
+                      <li>
+                        Cybersecurity (Principles, Threat Analysis, Security
+                        Measures)
+                      </li>
+                      <li>
+                        Software Development (Design, Development, Testing)
+                      </li>
+                      <li>
+                        Data Analysis and Visualization (Python, R, Power BI)
+                      </li>
                       <li>Cloud Computing (AWS, Azure, GCP)</li>
                     </ol>
                   </CardDescription>
                 </CardHeader>
               </Card>
-            </li> 
+            </li>
           </ol>
         </div>
-  
       </TabsContent>
     </Tabs>
-    
   );
 }
