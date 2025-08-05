@@ -27,7 +27,7 @@ export default function Contact() {
         if (!formState.fullName) {
           setError({ ...error, fullName: true });
           toast({
-            description: "Please fill in your full name",
+            description: "Please fill in your name",
             variant: "destructive",
           });
           return false;

@@ -72,7 +72,7 @@ export default function Projects() {
       description:
         "A portfolio website - link to my resume to showcase my work and skills.",
       image: "/img/projects/port.png",
-      link: "https://drive.google.com/drive/folders/1-iMtGc6tIjNjuyF_evsQ06WK5s_tKAwV",
+      link: "https://drive.google.com/file/d/1biEYlKx2Jf4CWi8oFBA5OxbWAZJCfeXT/view?usp=sharing",
       imagePosition: "right",
     },
     {

@@ -11,9 +11,8 @@ import Projects from "@/components/projects";
 import Contact from "@/components/forms/contact";
 import Experience from "@/components/experience";
 import Link from "next/link";
-import { sendResumeViewedEmail } from '@/lib/actions';
+import { sendResumeViewedEmail } from "@/lib/actions";
 import Hero from "./Hero";
-
 
 var ReactRotatingText = require("react-rotating-text");
 
@@ -23,7 +22,6 @@ export default function Home() {
     AOS.init({});
   }, []);
   return (
-   
     <React.Fragment>
       {/* intro */}
       <section className="grid lg:grid-cols-2 grid-cols-1 items-center lg:text-left text-center">
@@ -32,7 +30,7 @@ export default function Home() {
             HELLO, I&apos;M
           </p>
           <h1 className="lg:text-5xl text-2xl font-black tracking-[0.1rem] lg:my-5 my-2">
-            <span className="text-primary">Martin</span> Maina 
+            <span className="text-primary">Martin</span> Maina
           </h1>
           <p className="lg:text-4xl text-xl text-primary font-semibold tracking-wide">
             <ReactRotatingText
@@ -44,13 +42,13 @@ export default function Home() {
                 "CyberSecurity Enthusiast",
               ]}
             />
-          
           </p>
           <p className="lg:my-10 my-5 leading-10">
-            A DevSecOps Engineer 👨🏼‍💻 with {" "}
-            <span className="text-primary">over 4 years</span> experience in the SDLC partaining to the
-            evolutionary cycle for dynamic & robust web applications, security engineering, API
-            integration, DevOps and everything CI/CD.
+            A DevSecOps Engineer 👨🏼‍💻 with{" "}
+            <span className="text-primary">over 4 years</span> experience in the
+            SDLC partaining to the evolutionary cycle for dynamic & robust web
+            applications, security engineering, API integration, DevOps and
+            everything CI/CD.
           </p>
           <div className="lg:flex lg:gap-5 my-10 lg:space-y-0 space-y-3">
             <Button
@@ -59,10 +57,10 @@ export default function Home() {
               onClick={() => {
                 startTransition(async () => {
                   await sendResumeViewedEmail();
-                window.open(
-                  "https://drive.google.com/file/d/1kOzu4KVeAtcgGmeTnotwaiA2LJGQHiWL/view?usp=sharing",
-                  "_blank"
-                );
+                  window.open(
+                    "https://drive.google.com/file/d/1biEYlKx2Jf4CWi8oFBA5OxbWAZJCfeXT/view?usp=sharing",
+                    "_blank"
+                  );
                 });
               }}
               disabled={transition}
@@ -113,12 +111,13 @@ export default function Home() {
             <span className="text-primary">Engineer</span>
           </h2>
           <p className="leading-10 my-5">
-            Extremely deeply committed to continuous learning and staying ahead of technology trends. 
-            This commitment fuels my passion for innovation and my ability to bring cutting-edge solutions to any organization. 
-            My goal is to leverage my skills to create value, improve performance, and deliver exceptional results. 
-            Proven leader with the ability to
-            streamline development processes to drive the achievement of
-            organisational objectives.
+            Extremely deeply committed to continuous learning and staying ahead
+            of technology trends. This commitment fuels my passion for
+            innovation and my ability to bring cutting-edge solutions to any
+            organization. My goal is to leverage my skills to create value,
+            improve performance, and deliver exceptional results. Proven leader
+            with the ability to streamline development processes to drive the
+            achievement of organisational objectives.
           </p>
           <ul className="space-y-4 mb-10">
             <li className="flex">
@@ -216,7 +215,7 @@ export default function Home() {
               Get In Touch
             </p>
             <h4 className="lg:text-4xl text-2xl my-5">
-              Let&apos;s Discuss about your {" "}
+              Let&apos;s Discuss about your{" "}
               <span className="text-primary">Next Big Project(s)</span>
             </h4>
             <p className="leading-10 my-5">
